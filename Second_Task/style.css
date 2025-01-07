@@ -1,0 +1,40 @@
+.container{
+    background-color:pink;
+    height: 200px;
+    width: 200px;
+    margin: 25% auto auto auto;
+  }
+  .tr-1{
+    height:0;
+    width:0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid blue;
+    margin: auto;
+  }
+  .tr-2{
+    height:0;
+    width:0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid blue;
+    margin: auto;
+  }
+  .tr-3{
+    height:0;
+    width:0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid blue;
+    margin: auto;
+  }
+  .tr-4{
+    height:0;
+    width:0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid blue;
+    margin: auto;
+  }
+  
+  
