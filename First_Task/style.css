@@ -1,0 +1,118 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: pink
+  }
+  .container{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    position: relative;
+  }
+  .first,.second{
+    display:flex;
+    justify-content:space-between
+  }
+  .triangle-1{
+    height:0px;
+    width:0px;
+    border-top: 50px solid white;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    margin:10px;
+  }
+  .triangle-2{
+    height:0px;
+    width:0px;
+    border-top: 50px solid white;
+    border-bottom: 50px solid transparent;
+    margin:10px;
+    border-left: 50px solid transparent;
+  }
+  .triangle-3{
+    height:0px;
+    width:0px;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid white;
+    margin:10px;
+  }
+  .triangle-4{
+    height:0px;
+    width:0px;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid white;
+    border-left: 50px solid transparent;
+    margin:10px;
+  }
+  .third{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:blue;
+    flex-direction:column;
+    position:relative;
+    
+  }
+  .quart-1{
+    height:50px;
+    width:50px;
+    background-color:white;
+    border-radius: 0 0 50px 0;
+    position: absolute;
+    left:100px;
+  }
+  .quart-2{
+    height:50px;
+    width:50px;
+    background-color:white;
+    position: absolute;
+    border-radius: 50px 0 0 0;
+    /* left:62px */
+    position:absolute;
+  }
+  
+  .test {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .test-1 {
+    width: 30px;
+    height:30px;
+    background-color:white;
+    border-top-left-radius: 100%;
+    margin-left: -30px;
+  }
+  
+  .test-2 {
+    width: 30px;
+    height:30px;
+    background-color:white;
+    border-bottom-right-radius: 100%;
+   margin-left: 30px;
+  }
+  
+  /* .tracer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  top: 0;
+  left: 0
+  }
+  
+  .outline {
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+  } */
