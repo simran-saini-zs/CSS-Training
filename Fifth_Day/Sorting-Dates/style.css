@@ -1,0 +1,67 @@
+/* Basic table styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders don't have space between them */
+    margin: 20px 0; /* Adds space above and below the table */
+    font-family: Arial, sans-serif; /* Sets font for the table */
+}
+
+/* Styling for table header */
+th {
+    background-color: #4CAF50; /* Green background for the header */
+    color: white; /* White text color for the header */
+    padding: 12px 15px; /* Adds padding around the text */
+    text-align: left; /* Aligns the header text to the left */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* Styling for table rows */
+td {
+    padding: 12px 15px; /* Adds padding around the data in the cells */
+    border-bottom: 1px solid #ddd; /* Light border at the bottom of each row */
+    text-align: left; /* Aligns the text to the left */
+}
+
+/* Alternate row color (striped effect) */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1; /* Slightly darker background when hovering over a row */
+}
+
+/* Styling for the table itself when hovered */
+table:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow when hovering over the table */
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+}
+
+/* Styling for the table borders */
+table, th, td {
+    border: 1px solid #ddd; /* Light border around the table, header, and cells */
+}
+
+/* Add a slight border-radius for rounded corners */
+table {
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensures content doesn't overflow from the rounded corners */
+}
+
+/* Button styling for better visual appeal */
+button {
+    padding: 10px 20px; /* Adds padding inside the button */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Changes cursor to a pointer when hovering */
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}

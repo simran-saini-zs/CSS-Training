@@ -41,10 +41,10 @@ let team4 = new Promise((resolve,reject)=>{
 });
 const ans = await Promise.race([team1,team2,team3,team4]);
 console.log(ans);
-// let val = Math.min(...ans);
+let val = Math.min(...ans);
 //return time taken to complete a particular promise
 //how to find which promise has resolved first
-// console.log("Team",val," Won");
+console.log("Team",val," Won");
 
 // Define two promises
 const promise1 = new Promise((resolve, reject) => {
@@ -70,4 +70,3 @@ const promise1 = new Promise((resolve, reject) => {
     .catch(error => {
       console.log('The first rejected promise:', error);
     });
-    
