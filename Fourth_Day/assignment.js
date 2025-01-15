@@ -31,7 +31,7 @@ async function calls()
 {
     try {
         
-        let response1 =  await fetch('https://jsonplaceholder.typicode.com/comments/1');
+        let response1 =  fetch('https://jsonplaceholder.typicode.com/comments/1');
         let response2 =  fetch('https://jsonpl.typicode.com/c=');
         let response3 = setTimeout(()=>{
             fetch('https://jsonplaceholder.typicode.com/comments/1').then(res => console.log("hi"));
@@ -138,7 +138,7 @@ async function fn()
     });
 };
 
-let ansk = await fn();
+let ansk = await Promise.allSettled([fn(),fn(),fn()]);
 console.log(ansk);
 
 //10) Write a series of Promises that chain together to perform a calculation (e.g., adding two numbers, then multiplying the result by a third number). Log the final result.
